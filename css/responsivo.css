@@ -1,0 +1,34 @@
+@media (max-width: 1024px) {
+
+    .container .data a{
+        margin-left: 13%;
+    }
+
+    .container h3 {
+        width: 100%;
+        margin-left: 60%;
+    }
+}
+
+@media (max-width: 393px) {
+    section {
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 414px) {
+    section {
+        width: 50%;
+}
+
+    .container h2 {
+        margin-right: 30px;
+    }
+
+
+    .container .criador img {
+        width: 0%;
+        overflow: hidden;
+    }
+}

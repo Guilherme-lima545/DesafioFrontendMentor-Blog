@@ -1,0 +1,90 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree";
+}
+
+section {
+    display: flex;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    width: 19%;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+    border-bottom: 5px solid black;
+    border-bottom-left-radius: 5px solid black;
+    margin-top: 10%;
+}
+
+.container .imagem img {
+    max-width: 110%;
+    border-radius: 20px;
+}
+
+.imagem {
+    margin-right: 10%;
+}
+
+.container button{
+    max-width: 100%;
+    display: flex;
+    background-color: hsl(47, 88%, 63%);
+    color: black;
+    font-size: 90%;
+    font-family: "Figtree";
+    border-radius: 5px;
+    border-color: none;
+    align-items: center;
+    margin-right: 75%;
+}
+
+
+.container .data a {
+    max-width: 100%;
+    padding-top: 3%;
+}
+
+.data a {
+    width: 100%;
+    margin-right: 200px;
+    display: flex;
+}
+
+
+.container h2 {
+    width: 100%;
+    margin-right: 1%;
+    display: flex;
+    cursor: pointer;
+}
+
+.container h2:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.container p {
+    font-size: 20px;
+    color: grey;
+}
+
+.container .criador {
+    width: 50%;
+    display: flex;
+    margin-right: 50%;
+}
+.container .criador img {
+    width: 30%;
+    display: flex;
+}
+
+.criador {
+    margin-top: 5%;
+}
+
+h3 {
+    margin-top: -10%;
+    margin-right: 30%;
+}
+
